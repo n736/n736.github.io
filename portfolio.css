@@ -13,9 +13,14 @@ div.section {
 p,
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0 1%;
   padding: 1px;
+}
+
+p {
+  text-align: justify;
 }
 
 .content {

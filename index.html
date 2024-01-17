@@ -20,8 +20,8 @@
   <div class="section">
     <h3>About Me</h3>
     <p>
-      I am a passionate individual with a diverse skill set. I'm interested in researching artificial intelligence and
-      various mathematics in application to music technology, video games, and human-computer interaction.
+      I am a passionate, creative individual with a diverse, interdisciplinary skill set. I'm interested in topics varying from researching artificial intelligence and
+      generative algorithms in the field of music technology, video games, and human-computer interaction. My artistic style is interactive and improvisational, with a complexity so generalized, it breaches the boundary of possibility.  
     </p>
   </div>
 
@@ -29,6 +29,7 @@
 
   <div class="section">
     <h3>Gong Controller</h3>
+    <h4>with Matthew Goodheart</h4>
     <ul class="items">
       <li>
         <img src="resources/gong/front.jpg" />
@@ -41,8 +42,10 @@
       </li>
     </ul>
     <p>
-      A design for a new controller interface. Utilizes the touch potentiometer sensor and an Arduino Nano. 3D Model
-      WIP.
+      An experimental design for a controller interface for controlling... well... anything! The current prototype includes 10 touch potentiometers connected via I2C to an Arduino Nano, able to transmit OpenSoundControl messages over a USB Serial connection. These potentiometers not only give visual feedback, but can programmatically have its position set, allowing for a complex, hands-free change between different scenes. Currently, a Max/MSP interface exists to easily allow hooking up these parameters to a fun sounding object like resonators~, perfect for controlling a gong with an attached transducer.  
+    </p>
+    <p>
+      The physical design is currently being modeling for 3D printing for a final product.
     </p>
   </div>
 
@@ -62,7 +65,7 @@
       </li>
     </ul>
     <p>
-      A multi-channel, networked composition revolved around the machine learning of a signal.
+      A glitchy, multi-channel composition revolved around the machine learning of a signal. Each networked performer draws waveforms, training a multi-layer perceptron (MLP) based on their inputs. As time progresses, the MLP learns each performer's signal identity and interpolates between them. The MLP output is played back through a buffer at a swept frequency from 0 to the sample rate, with lots of aliasing and self-modulation. The spectroscope of this signal is a work of art itself. And of course, there are fun little glitch noises every time you click send.   
     </p>
   </div>
 
@@ -78,7 +81,7 @@
         </audio>
     </div>
     <p>
-      A composition composed from transformed sounds obtained through field recording.
+      A ghostly composition that takes you on a ride, deep beneath the earth. The piece was arranged in Audacity, using a couple of field-recorded sounds that were carefully transformed into a completely new atmosphere. The piece reveals the composer's interest in horror, a genre that always manages to evoke strong emotion and send chills down the spine.
     </p>
   </div>
 
@@ -103,8 +106,7 @@
       </p>
     </div>
     <p>
-      An instruction score that sonically investigates the underlying musical elements of linguistics. Featured in the
-      book "A Year of Deep Listening." Inspired by "I Am Sitting In A Room" by Alvin Lucier.
+      An instruction score that sonically investigates the underlying musical elements of linguistics. Inspired by "I Am Sitting In A Room" by Alvin Lucier, the piece slowly transforms a simple piece of text into a form of pure sound. This piece has been designed with the composer's newly achieved understanding of sound, through Pauline Olivero's practice of deep listening. The score is featured in "A Year of Deep Listening" arranged by Stephanie Loveless. 
     </p>
   </div>
 
@@ -124,11 +126,15 @@
 
   <div class="section">
     <h3>Web Guitar</h3>
-    <div id="guitar" class="content"></div>
+    <div id="guitar" class="content">
+    <p style="font-size: 8pt">
+      Zoom in/out if the content is too small/large.
+    </p>
+    </div>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tone@14.8.26"></script>
     <script src="resources/guitar/src/script.js"></script>
-    <p>A web guitar toy programmed in JavaScript.</p>
+    <p>A fun, guitar designed to run in the browser. A combination of data visualization techniques in JavaScript and an understanding of music, MIDI, and guitars. You can click each fret to play a melody or try chord mode, selecting each note to be part of a harmony. Or if you really just want to have fun, go to town in strum mode. Fun fact: I actually prefer to tune my guitar in all fourths from Eb; it just feels right. </p>
   </div>
 
   <hr>
@@ -144,8 +150,7 @@
         </audio>
     </div>
     <p>
-      A composition.
-      Demonstrates my artistic style of complex time signatures and playing with key.
+      A heartwarming, Christmas-time composition that shines light on a beautiful flower, unusually existing in a snowy environment. The composition style is like a multi-dimensional see-saw, bouncing between contrasting thoughts. The exploitation varies across musical constructs: major against minor, regular against irregular time, and loud against soft. Although the piece sounds uniquely satisfying, it is quite difficult to play as is, leaving room to reinterpretation through different arrangements and orchestrations. 
     </p>
   </div>
 
